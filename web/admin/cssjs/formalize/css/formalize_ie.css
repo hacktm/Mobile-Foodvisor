@@ -1,0 +1,19 @@
+textarea.formal,
+select.formal,
+input.formal[type="date"],
+input.formal[type="datetime"],
+input.formal[type="datetime-local"],
+input.formal[type="email"],
+input.formal[type="month"],
+input.formal[type="number"],
+input.formal[type="password"],
+input.formal[type="search"],
+input.formal[type="tel"],
+input.formal[type="text"],
+input.formal[type="time"],
+input.formal[type="url"],
+input.formal[type="week"] {
+
+padding: 10px;
+
+}
