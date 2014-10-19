@@ -15,12 +15,8 @@ $db->startQuery($sql);
 
 if ($db->numRows()>0) {
 ?>
-<table width="100%">
-<tr>
-<th>Status</th>
-<th>Name</th>
-<th>Details</th>
-</tr>
+<table class="table table-striped" width="100%">
+
 <? 
 while($row=$db->nextRow()) {
 
@@ -37,8 +33,9 @@ if ($details=="") $details="No data";
 <tr>
 <td><?=$img; ?></td>
 </td>
-<td><?=$row['name'];?></td>
-<td><?=$details;?></td>
+<td><h2><?=$row['name'];?></h2>
+<p><?=$details;?></p></td>
+
 </tr>
 <?	
 }

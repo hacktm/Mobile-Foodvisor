@@ -28,62 +28,14 @@ border-radius: 0px 0px 10px 10px;
  
  
  
-/*STYLE FOR THE BACK TO TOP*/
-#backtotop {
-	position: fixed;
-	right:0px;
-	bottom:15px;
-	display:none;/*HID THE BUTTON FIRST*/
-	border:none;
-	z-index:100000;
-	border:solid 1px #737373;
-}
-#backtotop a {
-	text-decoration:none;
-	border:0 none;
-	display:block;
-	width:50%;
-	height:50%;
-}
-#backtotop a:hover {
-	opacity:.8; /*MOUSE OVER FADE EFFECT*/
-	text-decoration:none;
-}
-.clrb {
-	clear:both;
-}
-/* SCROLL UP */
-.scrollup{
-    position:fixed;
-	width: 48px !important;
-	height: 48px !important;
-	line-height: 48px !important;
-    bottom:20px;
-    right:20px;
-	margin-right:20px;
-}
-/* SCROLL UP BACKGROUND COLOR */
-.scrollup { background-color: #FFFFFF; width: 48px !important;
-	height: 48px !important; text-decoration:none;
-	}
-/* SCROLL UP A HREF TEXT COLOR */
-.scrollup a:href{color:#012756; text-decoration:none;}
-/* SCROLL UP A HOVER TEXT COLOR */
-.scrollup a:hover{  text-decoration:none;}
-/* SCROLL UP A HOVER BACKGROUND COLOR*/
 
-/* SCROLL UP I STILE */
-.scrollup i { 
-line-height: 48px !important;
-	padding-left:12px;
-	font-size:36px;	
-	margin-left:auto;
-	margin-right:auto;
-}
- .contentscroll3{ width:200px; height:100px;}
-.title{font-family:'Handlee'; text-align:center; padding-top:20px; padding-bottom:50px; font-size:50%; } 
-.title_c{font-family:'Handlee';}
-.form-horizontal{ text-align:center; margin-left:auto; margin-right:auto; width:30%;}
+.title{font-family:'Calibri Bold'; text-align:center; padding-top:20px; padding-bottom:50px; font-size:50%; } 
+.title_c{font-family:'Calibri Bold';}
+.title_b{font-family:'Calibri Bold'; font-style:italic; text-align:center;}
+
+
+
+.form-horizontal{ text-align:center; margin-left:auto; margin-right:auto; width:30%; margin-top:5%;}
  
  
  
