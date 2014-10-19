@@ -11,8 +11,8 @@ img{
     display:block;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:auto;
-	margin-bottom:auto;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 .wrapper{
 background-color:#FFFFFF;
@@ -81,7 +81,22 @@ line-height: 48px !important;
 	margin-right:auto;
 }
  .contentscroll3{ width:200px; height:100px;}
-.title{font-family:'Handlee'; text-align:center; padding-top:20px; padding-bottom:50px; } 
-
+.title{font-family:'Handlee'; text-align:center; padding-top:20px; padding-bottom:50px; font-size:50%; } 
+.title_c{font-family:'Handlee';}
 .form-horizontal{ text-align:center; margin-left:auto; margin-right:auto; width:30%;}
- /*VEGAS BACKGROUNS SLIDESHOW*/
+ 
+ 
+ 
+  @media (max-width: 780px) {
+  .form-horizontal {
+    width:60%;
+  }
+  
+  }
+ 
+ @media (max-width: 600px) {
+  .form-horizontal {
+    width:100%;
+  }
+  
+  }

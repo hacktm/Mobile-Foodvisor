@@ -73,4 +73,18 @@ if ($db->numRows()>0) {
 	return $result;
 }
 
+function front_autocomplete($q) {
+
+	$items_list=array();
+	global $db;	
+    $sql="SELECT * FROM items WHERE id like '%$q%' or name like '%$q%' limit 10";
+	$db->startQuery($sql);
+		
+	if ($db->numRows()>0) {
+		while($row=$db->nextRow())
+		$items_list[]=$row['name'];
+		}
+return json_encode($items_list);		
+}
+
 ?>

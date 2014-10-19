@@ -12,8 +12,7 @@
  <link href="css/style.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/jquery.selectbox.css" type="text/css" rel="stylesheet" />
-    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,9 +20,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   
-    <script>
-	   $('.selectpicker').selectpicker();
-	</script>
+    
 
   </head>
   <body  >
@@ -103,18 +100,7 @@
   <div class="form-group">
     <div class="col-sm-12">
   <div class="control-group">
-    <label class="control-label" for="input01"></label>
-    <div class="controls">
-    
-    <select name="bar" id="bar" tabindex="1">
-			<option value="">--Select Barcode/Product--</option>
-			
-				<option value="1">BarCode</option>
-				<option value="9">Product</option>
-
-	</select>
-    </div>
-    </div>
+    <label class=" "></label>   </div>
     </div>
   </div>
   
@@ -135,22 +121,32 @@
 </div><!--row-->
 
 
-<div class="row">
-  <div class="col-lg-12">
+<div class="row"><label class="control-label" for="input01">Barcode/Product:</label>
+    <div class="controls">
+   <select name="BP" class="BP"  id="span9000">
+	<option></option>
+    <option>--Select Barcode/Product--</option>
+
+<option>Barcode</option>	
+	
+<option>Product</option>	
+	
+	</select>
+    </div>
+
+
+ <div class="col-xs-6"><img src="img/1.png"/>
+ </div><!--col-xs-6-->
+  <div class="col-xs-6">
+  
+  
   <div class="panel panel-success">
   <div class="panel-heading">
 
-    <h3 class="panel-title title_c">This product contains</h3>
+    <h3 class="panel-title">This product contains</h3>
 
 </div>
   <div class="panel-body">
-
- <div class="col-md-4"><img src="img/1.png"/>
- </div><!--col-xs-6-->
-  <div class="col-md-8">
-  
-  
-
   <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
   </div>
  
@@ -160,8 +156,8 @@
  
   
   
-  </div><!--col-lg-12-->
   </div><!--col-xs-6-->
+  
   </div><!--row-->
   
   <div class="row">
@@ -170,7 +166,7 @@
   <div class="panel panel-danger">
   <div class="panel-heading">
 
-    <h3 class="panel-title title_c">Atention!!!</h3>
+    <h3 class="panel-title">Atention!!!</h3>
 
 </div>
   <div class="panel-body">
@@ -199,15 +195,9 @@
 <div id="backtotop" class="scrollup">
 <a href="#"><i class="icon-angle-up  icon-3x"></i></a>
 </div> 
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
-		<script type="text/javascript">
-		$(function () {
-			$("#bar").selectbox();
-		});
-		</script>
-   
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
     <script src="js/typehead.min.js"></script>
