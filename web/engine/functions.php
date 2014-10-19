@@ -63,10 +63,10 @@ if ($db->numRows()>0) {
 	$status=$additives_val<50?1:($additives_val>=100?3:2);
 	
 	$json_array=array(
-	"status"=>$status,
-	"name"=>$item_name,
-	"status_details" => $additives_names,
-	"attentions" => $ingredients_names 
+	"status"=>$status."",
+	"name"=>$item_name."",
+	"status_details" => $additives_names."",
+	"attentions" => $ingredients_names."" 
 	);
 	$result= json_encode($json_array);
 	}

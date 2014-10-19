@@ -1,5 +1,7 @@
-
-<!DOCTYPE html>
+<? 
+require_once("engine/ini.php");
+require_once("engine/functions_front.php");
+?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,9 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   
-    <script>
-	   $('.selectpicker').selectpicker();
-	</script>
+  
 
   </head>
   <body  >
@@ -98,7 +98,7 @@
     
 <div class="row">
 <div class="col-lg-12">
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form" method="post">
 
   <div class="form-group">
     <div class="col-sm-12">
@@ -106,11 +106,10 @@
     <label class="control-label" for="input01"></label>
     <div class="controls">
     
-    <select name="bar" id="bar" tabindex="1">
-			<option value="">--Select Barcode/Product--</option>
-			
-				<option value="1">BarCode</option>
-				<option value="9">Product</option>
+    <select name="bar" id="bar" tabindex="1" onChange="changeHomeSel(this.value);">		
+				
+				<option value="1">Product</option>
+                <option value="2" <?=$_REQUEST['bar']==2?' selected="selected"':''; ?>>Bar Code</option>
 
 	</select>
     </div>
@@ -121,7 +120,8 @@
   <div class="form-group">
    
     <div class="col-sm-12">
-      <input type="text" class="form-control" autocomplete="off" id="prod" >
+      <input type="text" name="prod-name" value="<?=$_REQUEST['prod-name']; ?>" class="form-control" autocomplete="off" id="prod-name" />
+      <input type="text" name="prod" value="<?=$_REQUEST['prod']; ?>" class="form-control hidden" autocomplete="off" id="prod" />
     </div>
   </div>
   
@@ -133,36 +133,9 @@
 </form>
 </div><!--col-lg-5-->
 </div><!--row-->
-
-
-<div class="row">
-  <div class="col-lg-12">
-  <div class="panel panel-success">
-  <div class="panel-heading">
-
-    <h3 class="panel-title title_c">This product contains</h3>
-
-</div>
-  <div class="panel-body">
-
- <div class="col-md-4"><img src="img/1.png"/>
- </div><!--col-xs-6-->
-  <div class="col-md-8">
-  
-  
-
-  <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
-  </div>
- 
-</div>
-  
-  
- 
-  
-  
-  </div><!--col-lg-12-->
-  </div><!--col-xs-6-->
-  </div><!--row-->
+<?
+show_result_table($_REQUEST['bar'],$_REQUEST['prod'],$_REQUEST['prod-name']);
+?>
   
   <div class="row">
   <div class="col-lg-12">
@@ -178,11 +151,7 @@
   </div>
  
 </div>
-  
-  
 
-
- 
                     
   </div><!--col-xs-6-->
   
@@ -192,15 +161,12 @@
 </div><!--continer-fluid-->
 </div><!--continer-->
 
-
-
-
 <div class="clrb"></div>
 <div id="backtotop" class="scrollup">
 <a href="#"><i class="icon-angle-up  icon-3x"></i></a>
 </div> 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
 		<script type="text/javascript">
 		$(function () {
