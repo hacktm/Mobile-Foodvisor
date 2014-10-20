@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="F:\foodvisor\core/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="F:\foodvisor\core/build/intermediates/bundles/debug/res" >
+            <file
+                name="merge_camera_preview_view_finder"
+                path="F:\foodvisor\core/build/intermediates/bundles/debug/res/layout/merge_camera_preview_view_finder.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="F:\foodvisor\core/build/intermediates/bundles/debug/res/values/values.xml"
+                qualifiers="" >
+                <color name="viewfinder_laser" >#ffcc0000
+                </color>
+
+                <integer name="viewfinder_border_width" >
+4
+                </integer>
+                <integer name="viewfinder_border_length" >
+60
+                </integer>
+
+                <color name="viewfinder_border" >#ffafed44
+                </color>
+                <color name="viewfinder_mask" >#60000000
+                </color>
+            </file>
+            <file
+                path="F:\foodvisor\core/build/intermediates/bundles/debug/res/values-hdpi-v4/values.xml"
+                qualifiers="hdpi-v4" >
+                <integer name="viewfinder_border_width" >
+4
+                </integer>
+                <integer name="viewfinder_border_length" >
+60
+                </integer>
+            </file>
+            <file
+                path="F:\foodvisor\core/build/intermediates/bundles/debug/res/values-xhdpi-v4/values.xml"
+                qualifiers="xhdpi-v4" >
+                <integer name="viewfinder_border_width" >
+5
+                </integer>
+                <integer name="viewfinder_border_length" >
+80
+                </integer>
+            </file>
+            <file
+                path="F:\foodvisor\core/build/intermediates/bundles/debug/res/values-xxhdpi-v4/values.xml"
+                qualifiers="xxhdpi-v4" >
+                <integer name="viewfinder_border_length" >
+100
+                </integer>
+                <integer name="viewfinder_border_width" >
+6
+                </integer>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="F:\foodvisor\core/src/androidTest/res" />
+        <source path="F:\foodvisor\core/build/generated/res/rs/test/debug" />
+        <source path="F:\foodvisor\core/build/generated/res/generated/test/debug" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,14 @@
+apply plugin: 'android'
+
+dependencies {
+    //compile project(":zxing:zxing")
+    compile 'me.dm7.barcodescanner:zxing:1.5'
+    compile supportLibraryDependency
+    compile 'com.android.support:appcompat-v7:20.0.0'
+}
+
+android {
+    defaultConfig {
+        applicationId "com.foodvisor"
+    }
+}
