@@ -2,17 +2,17 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+        <source path="F:\foodvisor\core\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
     </dataSet>
     <dataSet config="main" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res" >
+        <source path="F:\foodvisor\core\src\main\res" >
             <file
                 name="merge_camera_preview_view_finder"
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\layout\merge_camera_preview_view_finder.xml"
+                path="F:\foodvisor\core\src\main\res\layout\merge_camera_preview_view_finder.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\values\colors.xml"
+                path="F:\foodvisor\core\src\main\res\values\colors.xml"
                 qualifiers="" >
                 <color name="viewfinder_border" >#ffafed44
                 </color>
@@ -22,7 +22,7 @@
                 </color>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\values\strings.xml"
+                path="F:\foodvisor\core\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <integer name="viewfinder_border_width" >
 4
@@ -32,7 +32,7 @@
                 </integer>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\values-hdpi\strings.xml"
+                path="F:\foodvisor\core\src\main\res\values-hdpi\strings.xml"
                 qualifiers="hdpi-v4" >
                 <integer name="viewfinder_border_width" >
 4
@@ -42,7 +42,7 @@
                 </integer>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\values-xhdpi\strings.xml"
+                path="F:\foodvisor\core\src\main\res\values-xhdpi\strings.xml"
                 qualifiers="xhdpi-v4" >
                 <integer name="viewfinder_border_length" >
 80
@@ -52,7 +52,7 @@
                 </integer>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\res\values-xxhdpi\strings.xml"
+                path="F:\foodvisor\core\src\main\res\values-xxhdpi\strings.xml"
                 qualifiers="xxhdpi-v4" >
                 <integer name="viewfinder_border_length" >
 100
@@ -62,11 +62,11 @@
                 </integer>
             </file>
         </source>
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\build\generated\res\rs\debug" />
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\build\generated\res\generated\debug" />
+        <source path="F:\foodvisor\core\build\generated\res\rs\debug" />
+        <source path="F:\foodvisor\core\build\generated\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\src\debug\res" />
+        <source path="F:\foodvisor\core\src\debug\res" />
     </dataSet>
 
 </merger>

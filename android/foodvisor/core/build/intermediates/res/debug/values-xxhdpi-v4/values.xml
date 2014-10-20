@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/Mobile-Foodvisor/android/foodvisor/core/src/main/res/values-xxhdpi/strings.xml -->
+    <!-- From: file:/F:/foodvisor/core/src/main/res/values-xxhdpi/strings.xml -->
     <eat-comment />
 
     <integer name="viewfinder_border_length">100</integer>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\assets" />
+    </dataSet>
+    <dataSet config="20.0.0" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\assets" />
+    </dataSet>
+    <dataSet config="1.5" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\assets" />
+    </dataSet>
+    <dataSet config="1.5" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.5\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\src\main\assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="F:\foodvisor\Foodvisor\Foodvisor\src\release\assets" />
+    </dataSet>
+
+</merger>

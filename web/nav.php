@@ -14,7 +14,7 @@
             <li class="active"><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">Download</a></li>
+            <li><a href="https://foodvisor.net/foodvisor.apk">Download</a></li>
             
           </ul>
         </div><!--/.nav-collapse -->

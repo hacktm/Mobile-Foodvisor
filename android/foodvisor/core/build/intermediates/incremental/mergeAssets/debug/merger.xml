@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\src\main\assets" />
+        <source path="F:\foodvisor\core\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\core\src\debug\assets" />
+        <source path="F:\foodvisor\core\src\debug\assets" />
     </dataSet>
 
 </merger>

@@ -2,17 +2,17 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+        <source path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
     </dataSet>
     <dataSet config="1.5" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res" >
+        <source path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res" >
             <file
                 name="merge_camera_preview_view_finder"
-                path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\layout\merge_camera_preview_view_finder.xml"
+                path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\layout\merge_camera_preview_view_finder.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values\values.xml"
+                path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values\values.xml"
                 qualifiers="" >
                 <color name="viewfinder_border" >#ffafed44
                 </color>
@@ -32,7 +32,7 @@
                 </color>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-hdpi-v4\values.xml"
+                path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-hdpi-v4\values.xml"
                 qualifiers="hdpi-v4" >
                 <integer name="viewfinder_border_width" >
 4
@@ -42,7 +42,7 @@
                 </integer>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-xhdpi-v4\values.xml"
+                path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-xhdpi-v4\values.xml"
                 qualifiers="xhdpi-v4" >
                 <integer name="viewfinder_border_length" >
 80
@@ -52,7 +52,7 @@
                 </integer>
             </file>
             <file
-                path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-xxhdpi-v4\values.xml"
+                path="F:\foodvisor\Foodvisor\zxing\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.5\res\values-xxhdpi-v4\values.xml"
                 qualifiers="xxhdpi-v4" >
                 <integer name="viewfinder_border_length" >
 100
@@ -64,12 +64,12 @@
         </source>
     </dataSet>
     <dataSet config="main" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\src\main\res" />
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\generated\res\rs\debug" />
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\build\generated\res\generated\debug" />
+        <source path="F:\foodvisor\Foodvisor\zxing\src\main\res" />
+        <source path="F:\foodvisor\Foodvisor\zxing\build\generated\res\rs\debug" />
+        <source path="F:\foodvisor\Foodvisor\zxing\build\generated\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Mobile-Foodvisor\android\foodvisor\Foodvisor\zxing\src\debug\res" />
+        <source path="F:\foodvisor\Foodvisor\zxing\src\debug\res" />
     </dataSet>
 
 </merger>
